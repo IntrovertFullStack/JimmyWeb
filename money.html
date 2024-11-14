@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<title>Conversor de Euros</title>
+</head>
+<body>
+    
+<h2>Euros a Dolares</h2>
+
+<p>
+  <label>Dolares</label>
+  <input id="inputDolares" type="number" placeholder="Dolares" oninput="dolaresEuros(this.value)" onchange="dolaresEuros(this.value)">
+</p>  
+  <p>
+  <label>Euros</label>
+  <input id="inputEuros" type="number" placeholder="Euros" oninput="eurosDolares(this.value)" onchange="eurosDolares(this.value)">
+</p>
+
+<script src="/JS/money.js"></script>
+</body>
+</html>

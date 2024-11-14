@@ -1,0 +1,28 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://d1w8kxtyn7add.cloudfront.net/textures/texture-tour.jpg);
+}
+
+h1{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    display: block;      
+    justify-content: center;
+    
+}
+
+button{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+button:hover{
+    transition: 1s;
+    color: aqua;
+}
